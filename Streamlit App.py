@@ -5,6 +5,7 @@ Run locally :  streamlit run app.py
 Deploy      :  push this folder to GitHub -> share.streamlit.io -> New app -> app.py
 """
 from __future__ import annotations
+import Streamlit as st
 
 import re
 import sqlite3
